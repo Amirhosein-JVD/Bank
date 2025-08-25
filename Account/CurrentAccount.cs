@@ -8,8 +8,6 @@
         {
             throw new EnoughBalanceException();
         }
-        account.balance -= amount;
-
         TransactionBase transaction = new TransactionBase
         {
             internalAccount = account,
@@ -21,6 +19,8 @@
             channel = TransactionsChannel.ATM,
             Type = TransactionType.WITHDRAW
         };
+
+        account.balance -= amount;
 
         pool.AddTransaction(transaction);
 

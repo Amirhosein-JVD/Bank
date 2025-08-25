@@ -4,8 +4,6 @@
 
     public void deposit(decimal amount, AccountBase account, string description, TransactionsChannel channel)
     {
-        account.balance += amount;
-
         TransactionBase transaction = new TransactionBase
         {
             internalAccount = account,
@@ -17,6 +15,9 @@
             channel = channel,
             Type = TransactionType.DEPOSIT
         };
+
+        account.balance += amount;
+
         pool.AddTransaction(transaction);
         Console.WriteLine("Deposit is done!");
     }

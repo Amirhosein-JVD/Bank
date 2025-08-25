@@ -26,7 +26,7 @@
         //User eliana = new User { firstName = "Eliana", lastName = "White", Email = "eliana.white@gmail.com", Password = "pwd645", Age = 27, Address = "Canada" };
 
         
-        AccountBase acc1 = new CurrentAccount {
+        CurrentAccount acc1 = new CurrentAccount {
             BankName = "Melli Bank",
             accountNumber = "6037991234567890",
             IBAN = "IR820540102680020817909002",
@@ -53,19 +53,29 @@
             owner= liam
         };
         AccountListManager accountManager = new AccountListManager();
-        accountManager.AddAccount(liam, acc1);
-        accountManager.AddAccount(liam, acc3);
-        accountManager.AddAccount(emma, acc2);
+        //accountManager.AddAccount(liam, acc1);
+        //accountManager.AddAccount(liam, acc3);
+        //accountManager.AddAccount(emma, acc2);
 
-        TransferService transferService = new TransferService();
-        transferService.transferTo(1_000_000, accountManager.GetAccount("6037991234567890"), accountManager.GetAccount("5859831234567890"), "This is gift!", TransactionsChannel.PAYA);
-       
+        //TransferService transferService = new TransferService();
+        //transferService.transferTo(1_000_000, accountManager.GetAccount("6037991234567890"), accountManager.GetAccount("5859831234567890"), "This is gift!", TransactionsChannel.PAYA);
+
+        //acc1.toString();
+        //acc2.toString();
+        //foreach (TransactionBase transaction in pool.GetTransactionsPool())
+        //{
+        //    transaction.toString();
+        //}
+        DepositService depo = new DepositService();
         acc1.toString();
-        acc2.toString();
-        foreach (TransactionBase transaction in pool.GetTransactionsPool())
-        {
-            transaction.toString();
-        }
+        Console.WriteLine("\n-------------------------------------------------------------------\n");
+        acc1.withdraw(acc1, 1000000, "gift!");
+        Console.WriteLine("\n-------------------------------------------------------------------\n");
+        acc1.toString();
+        Console.WriteLine("\n-------------------------------------------------------------------\n");
+        depo.deposit(1000000, acc1, "gift", TransactionsChannel.MOBILEBANK);
+        Console.WriteLine("\n-------------------------------------------------------------------\n");
+        acc1.toString();
         //acc1.toString();
         //acc2.toString();
         //acc3.toString();
