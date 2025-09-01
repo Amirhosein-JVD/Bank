@@ -1,0 +1,15 @@
+C:\Users\AvalPc\source\repos\Bank\Bank\obj\Debug\net8.0\Banksim.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AvalPc\source\repos\Bank\Bank\obj\Debug\net8.0\Banksim.AssemblyInfoInputs.cache
+C:\Users\AvalPc\source\repos\Bank\Bank\obj\Debug\net8.0\Banksim.AssemblyInfo.cs
+C:\Users\AvalPc\source\repos\Bank\Bank\obj\Debug\net8.0\Banksim.csproj.CoreCompileInputs.cache
+C:\Users\AvalPc\source\repos\Bank\Bank\obj\Debug\net8.0\Banksim.sourcelink.json
+C:\Users\AvalPc\source\repos\Bank\Bank\bin\Debug\net8.0\Banksim.exe
+C:\Users\AvalPc\source\repos\Bank\Bank\bin\Debug\net8.0\Banksim.deps.json
+C:\Users\AvalPc\source\repos\Bank\Bank\bin\Debug\net8.0\Banksim.runtimeconfig.json
+C:\Users\AvalPc\source\repos\Bank\Bank\bin\Debug\net8.0\Banksim.dll
+C:\Users\AvalPc\source\repos\Bank\Bank\bin\Debug\net8.0\Banksim.pdb
+C:\Users\AvalPc\source\repos\Bank\Bank\obj\Debug\net8.0\Banksim.dll
+C:\Users\AvalPc\source\repos\Bank\Bank\obj\Debug\net8.0\refint\Banksim.dll
+C:\Users\AvalPc\source\repos\Bank\Bank\obj\Debug\net8.0\Banksim.pdb
+C:\Users\AvalPc\source\repos\Bank\Bank\obj\Debug\net8.0\Banksim.genruntimeconfig.cache
+C:\Users\AvalPc\source\repos\Bank\Bank\obj\Debug\net8.0\ref\Banksim.dll

@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AvalPc\\source\\repos\\Bank\\Bank\\Bank.csproj",
-      "projectName": "Bank",
-      "projectPath": "C:\\Users\\AvalPc\\source\\repos\\Bank\\Bank\\Bank.csproj",
+      "projectUniqueName": "C:\\Users\\AvalPc\\source\\repos\\Bank\\Bank\\Banksim.csproj",
+      "projectName": "Banksim",
+      "projectPath": "C:\\Users\\AvalPc\\source\\repos\\Bank\\Bank\\Banksim.csproj",
       "packagesPath": "C:\\Users\\AvalPc\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\AvalPc\\source\\repos\\Bank\\Bank\\obj\\",
       "projectStyle": "PackageReference",

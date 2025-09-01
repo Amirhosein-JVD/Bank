@@ -1,5 +1,0 @@
-﻿public class AccountNotFoundException: Exception
-{
-    public AccountNotFoundException(string accountNumber) : base($"Account with number {accountNumber} not found!") { }
-
-}
